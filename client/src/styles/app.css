@@ -1,0 +1,52 @@
+body{
+  background-color: #1C1B1E;
+  color: #fac564;
+}
+
+.home {
+  background: url("/img/main-bkg.jpg") no-repeat center fixed;
+  background-size: cover;
+  padding: 7rem 0 0 0;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+}
+
+.home-title {
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 30px 50px;
+  border-radius: 5px;
+  border: 3px solid #f1f1f1;
+  height: fit-content;
+}
+
+.title{
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+.titles{
+  color: black;
+  font-weight: bold;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.btn-restaurants{
+  font-size: 160%;
+  background: #fac564;
+}
+
+.btn-restaurants:hover{
+  background: #F4A460;
+}
+
+.btn-restaurants:active{
+  background: #fac564;
+  box-shadow: none !important;
+}
+
+.btn-restaurants:focus {
+  background: #fac564 !important;
+  box-shadow: none !important;
+}

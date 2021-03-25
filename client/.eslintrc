@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "ignorePatterns": ["build/", "node_modules/", "server.js"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "jest"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "react/prefer-stateless-function": 0,
+    "react/jsx-filename-extension": 0,
+    "class-methods-use-this": "off",
+    "arrow-body-style": "off",
+    "object-shorthand": "off",
+    "react/destructuring-assignment": "off",
+    "max-len": ["error", { "code": 120 }],
+    "react/forbid-prop-types": 0,
+    "import/no-unresolved": "warn",
+    "import/no-named-as-default" :"off",
+    "import/no-named-as-default-member" : "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}

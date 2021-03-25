@@ -1,0 +1,50 @@
+.header {
+
+    height: 70px;
+}
+
+.header h2 {
+    text-align: center;
+}
+
+.menu-item {
+    text-align: left;
+    border: darkorange;
+    border-style: groove;
+}
+
+.headers-item {
+    text-align: center;
+    border: yellow;
+    border-style: solid;
+    background-color: darkslategray;
+}
+
+.menu-item hr {
+    border: 1px solid #E1E1E1;
+}
+
+.header-item {
+    text-align: center;
+    color: #fac564;
+}
+
+.col-item {
+  text-align: center;
+  font-size: 20px;
+}
+
+.col-item p{
+  text-align: center;
+  font-size: 15px;
+}
+
+.drop-down {
+    background-color: #fac564;
+    border-color: #fac564;
+    color: black;
+}
+
+.image-menu-item {
+    margin-top: 10px;
+}
